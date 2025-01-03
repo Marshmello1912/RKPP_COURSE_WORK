@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tamagotchi.controller.LoginController">
+    <children>
+        <Pane fx:id="rootPane" prefHeight="720.0" prefWidth="1280.0">
+            <children>
+                <Label alignment="CENTER" graphicTextGap="2.0" layoutX="869.0" layoutY="55.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="71.0" prefWidth="324.0" style="-fx-font-size: 44;" text="Авторизация">
+               <font>
+                  <Font name="Bodoni MT Bold Italic" size="52.0" />
+               </font></Label>
+                <TextField fx:id="usernameField" layoutX="872.0" layoutY="160.0" prefHeight="52.0" prefWidth="324.0" promptText="Логин" style="-fx-font-size: 23; -fx-background-radius: 6;" />
+                <PasswordField fx:id="passwordField" layoutX="872.0" layoutY="217.0" prefHeight="52.0" prefWidth="324.0" promptText="Пароль" style="-fx-font-size: 23; -fx-background-radius: 6;" />
+
+                <Button alignment="CENTER" contentDisplay="BOTTOM" layoutX="878.0" layoutY="269.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleLogin" prefHeight="52.0" prefWidth="312.0" style="-fx-background-color: rgb(0,0,0,0); -fx-font-size: 23;" text="Войти" textAlignment="CENTER" />
+                <Button alignment="CENTER" layoutX="878.0" layoutY="321.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleRegister" prefHeight="52.0" prefWidth="312.0" style="-fx-background-color: rgb(0,0,0,0); -fx-font-size: 23; -fx-text-alignment: center;" text="Регистрация" textOverrun="CLIP" underline="true" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
