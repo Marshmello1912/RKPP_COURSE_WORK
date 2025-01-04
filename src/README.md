@@ -42,3 +42,21 @@
 Игра включает управление питомцем через различные действия: кормление, прогулки, игры и сон. Каждое из этих действий влияет на основные показатели питомца — голод, счастье, энергию и здоровье. Текущая статистика питомца отображается в режиме реального времени и обновляется моментально после совершения действий пользователя. Для обеспечения актуальности данных клиент синхронизируется с сервером каждые 30 секунд.
 
 Если питомец умирает, игра не заканчивается — пользователь получает возможность выбрать нового питомца и начать игру заново. Этот процесс обеспечивает непрерывность игрового опыта, позволяя игроку продолжать взаимодействие с приложением.
+
+---
+# Визуальная состовляющаяя программы
+
+### Экран загрузки 
+![Alt text](https://github.com/Marshmello1912/RKPP_COURSE_WORK/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Work_Screenshots/Loading_screen.png?raw=true)
+
+### Авторизация
+![Alt text](https://github.com/Marshmello1912/RKPP_COURSE_WORK/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Work_Screenshots/Login_screen.png?raw=true)
+
+### Регистрация
+![Alt text](https://github.com/Marshmello1912/RKPP_COURSE_WORK/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Work_Screenshots/Registration_screen.png?raw=true)
+
+### Выбор питомца
+![Alt text](https://github.com/Marshmello1912/RKPP_COURSE_WORK/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Work_Screenshots/Choose_screen.png?raw=true)
+
+### Основное окно игры
+![Alt text](https://github.com/Marshmello1912/RKPP_COURSE_WORK/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Work_Screenshots/Game_screen.png?raw=true)
