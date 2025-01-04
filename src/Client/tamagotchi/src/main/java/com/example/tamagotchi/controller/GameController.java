@@ -112,6 +112,12 @@ public class GameController {
         }
     }
 
+    @FXML
+    public void handleLogout() {
+        Stage stage = (Stage) rootPane.getScene().getWindow();
+        SceneManager.getInstance().showLoginScreen(stage);
+    }
+
     private void updatePetStatus() {
         // Fetch the pet's status from the backend and update the label
         try {
